@@ -1,0 +1,8 @@
+
+services:
+  db:
+    build: docker
+    platform: linux/x86_64
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: perf_test
