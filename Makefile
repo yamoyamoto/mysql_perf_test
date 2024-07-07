@@ -11,4 +11,4 @@ stop_with_reset_db:
 	docker compose down -v
 
 connect_db:
-	docker compose exec db mysql -uroot -ppassword perf_test
+	docker compose exec db mysql -uroot -ppassword world
